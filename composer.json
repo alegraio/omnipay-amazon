@@ -1,0 +1,22 @@
+{
+  "name": "alegra/omnipay-amazon",
+  "type": "library",
+  "description": "Amazon payments driver for the Omnipay payment processing library",
+  "homepage": "https://github.com/alegraio/omnipay-amazon",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Amazon\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.3",
+    "omnipay/common": "^3",
+    "amzn/amazon-pay-sdk-php": "~3.6.0"
+  },
+  "require-dev": {
+    "omnipay/tests": "^3",
+    "squizlabs/php_codesniffer": "^3"
+  },
+  "prefer-stable": true
+}
